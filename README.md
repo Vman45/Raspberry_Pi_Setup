@@ -1,6 +1,6 @@
 # DK
 
-Jeux de Donkey Kong avec pygame
+Jeux de Donkey Kong avec pygame.
 
 ## Programes
 + [Images](https://github.com/matthieu-59/DK/tree/master/images)
