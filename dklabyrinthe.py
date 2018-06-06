@@ -59,11 +59,11 @@ while continuer:
 				
 			elif event.type == KEYDOWN:				
 				#Lancement du niveau 1
-				if event.key == K_z:
+				if event.key == K_F1:
 					continuer_accueil = 0	#On quitte l'accueil
 					choix = 'n1'		#On définit le niveau à charger
 				#Lancement du niveau 2
-				elif event.key == K_a:
+				elif event.key == K_F2:
 					continuer_accueil = 0
 					choix = 'n2'
 			
