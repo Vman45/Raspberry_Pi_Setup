@@ -1,6 +1,6 @@
 # Commandes raspberry
 
-Commandes utiles pour raspberry pi 3 modèle B
+Commandes utiles pour raspberry pi 3 modèle B.
 
 ## Changer de serveur raspbian :
 
@@ -16,4 +16,8 @@ Et faites un update :
 
 ## installer une librairie python :
 
-Tapez `sudo pip`version de python (2 ou 3)` install `nom de la librairie python
+Tapez `sudo pip` version de python (2 ou 3) ` install ` nom de la librairie python.
+
+Exemple :
+
+`sudo pip3 install pygame`
