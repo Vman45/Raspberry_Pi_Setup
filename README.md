@@ -13,3 +13,7 @@ Puis modifier l'adresse par une autre que vous trouverez [ici](http://www.raspbi
 Et faites un update :
 
 `sudo apt-get update`
+
+## installer une librairie python :
+
+Tapez `sudo pip`version de python (2 ou 3)` install `nom de la librairie python
