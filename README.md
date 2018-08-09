@@ -34,6 +34,10 @@ Exemple :
 
 `sudo nano /home/pi/exemple.py`
 
+Pour enregistrer :
+
+`Ctrl x`, `O` ou `Y` et `Entrée`
+
 ## Changer de serveur raspbian :
 
 Modifiez /etc/apt/sources.list :
