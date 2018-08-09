@@ -30,6 +30,8 @@ Exemple :
 
 `gparted` Editeur de partition
 
+`numlockx` 
+
 ## Installer une librairie python :
 
 Tapez `sudo pip` version de python (2 ou 3) ` install ` nom de la librairie python.
