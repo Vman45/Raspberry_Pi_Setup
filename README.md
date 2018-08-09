@@ -20,17 +20,17 @@ Exemple :
 
 ## Exemples de paquet :
 
-`vlc` Lecteur de multimedia
+`vlc` Lecteur de multimedia.
 
-`mc` Gestionnaire de fichier
+`mc` Gestionnaire de fichier.
 
-`leocad` Logitiel de conseption lego en 3D
+`leocad` Logitiel de conseption lego en 3D.
 
-`cantab-screensaver` Economiseur d'ecran pour raspberry
+`cantab-screensaver` Economiseur d'ecran pour raspberry.
 
-`gparted` Editeur de partition
+`gparted` Editeur de partition.
 
-`numlockx` 
+`numlockx` Verrouilleur du pavé numérique au démarrage.
 
 ## Installer une librairie python :
 
@@ -51,6 +51,28 @@ Exemple :
 Pour enregistrer :
 
 `Ctrl x`, `O` ou `Y` et `Entrée`
+
+## Shutdown option :
+
+`sudo halt` Pour éteindre le raspberry.
+
+`reboot` Pour rebooter le raspberry.
+
+## Mettre a jour le raspberry :
+
+`sudo apt-get update`
+
+`sudo apt-get -y upgrade`
+
+`sudo apt-get -y dist-upgrade`
+
+`sudo apt-get install ca-certificates git-core`
+
+`sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update`
+
+`sudo rpi-update`
+
+`reboot`
 
 ## Changer de serveur raspbian :
 
