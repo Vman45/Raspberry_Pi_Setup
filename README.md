@@ -18,6 +18,18 @@ Exemple :
 
 `sudo apt-get purge vlc`
 
+## Exemples de paquet :
+
+`vlc` Lecteur de multimedia
+
+`mc` Gestionnaire de fichier
+
+`leocad` Logitiel de conseption lego en 3D
+
+`cantab-screensaver` Economiseur d'ecran pour raspberry
+
+`gparted` Editeur de partition
+
 ## Installer une librairie python :
 
 Tapez `sudo pip` version de python (2 ou 3) ` install ` nom de la librairie python.
