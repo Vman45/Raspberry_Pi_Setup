@@ -130,4 +130,4 @@ Et ajouter :
 
 `avoid_warnings=1`
 
-## [ici](https://www.framboise314.fr/watchdog-pour-mon-raspberry-pi/).
+## [Raspbian tout un tas de trucs…](https://www.framboise314.fr/raspbian-tout-un-tas-de-trucs/).
