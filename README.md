@@ -82,6 +82,30 @@ Pour enregistrer :
 
 `reboot` 
 
+## Installer Octoprint :
+
+Octoprint permet de faire fonctionner une imprimante 3D.
+
+Notice
+
+## Installer Alexa :
+
+Alexa permet d'effectuer des actions par reconnaissance vocale.
+
+Notice
+
+## Installer Watchdog :
+
+Watchdog permet de rebooter le raspberry quand il est planté.
+
+Notice
+
+## Installer Lirc :
+
+Lirc permet de dupliquer les télécommandes infra rouge.
+
+Notice
+
 ## Changer de serveur raspbian :
 
 Modifiez `/etc/apt/sources.list` :
