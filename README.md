@@ -96,4 +96,4 @@ Et faites un update :
 
 ## Enlever le thermomètre de surchauffe :
 
-
+![Thermomètre](Thermomètre.png)
