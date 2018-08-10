@@ -130,4 +130,4 @@ Et ajouter :
 
 `avoid_warnings=1`
 
-## [Raspbian tout un tas de trucs…](https://www.framboise314.fr/raspbian-tout-un-tas-de-trucs/).
+## [Raspbian tout un tas de trucs…](https://www.framboise314.fr/raspbian-tout-un-tas-de-trucs/)
