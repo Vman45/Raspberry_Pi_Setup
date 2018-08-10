@@ -93,3 +93,7 @@ Puis modifier l'adresse par une autre que vous trouverez [ici](http://www.raspbi
 Et faites un update :
 
 `sudo apt-get update`
+
+## Enlever le thermomètre de surchauffe :
+
+
