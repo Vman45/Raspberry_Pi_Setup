@@ -88,6 +88,12 @@ Octoprint permet de faire fonctionner une imprimante 3D.
 
 Notice [ici](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337).
 
+## Installer Curaengine :
+
+Curaengine permet de trancher les pièces.
+
+Notice [ici](http://docs.octoprint.org/en/master/bundledplugins/cura.html)
+
 ## Installer Alexa :
 
 Alexa permet d'effectuer des actions par reconnaissance vocale.
