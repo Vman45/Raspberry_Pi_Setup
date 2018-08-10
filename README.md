@@ -86,25 +86,25 @@ Pour enregistrer :
 
 Octoprint permet de faire fonctionner une imprimante 3D.
 
-Notice
+Notice [ici](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337).
 
 ## Installer Alexa :
 
 Alexa permet d'effectuer des actions par reconnaissance vocale.
 
-Notice
+Notice [ici](https://github.com/alexa-pi/AlexaPi).
 
 ## Installer Watchdog :
 
 Watchdog permet de rebooter le raspberry quand il est planté.
 
-Notice
+Notice [ici](https://www.framboise314.fr/watchdog-pour-mon-raspberry-pi/).
 
 ## Installer Lirc :
 
 Lirc permet de dupliquer les télécommandes infra rouge.
 
-Notice
+Notice [ici](https://anderson69s.com/2015/08/04/raspberry-pi-dupliquer-sa-telecommande-ir/).
 
 ## Changer de serveur raspbian :
 
@@ -129,3 +129,5 @@ Allez dans `/boot/config.txt` :
 Et ajouter :
 
 `avoid_warnings=1`
+
+## [ici](https://www.framboise314.fr/watchdog-pour-mon-raspberry-pi/).
