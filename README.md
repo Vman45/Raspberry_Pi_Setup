@@ -84,7 +84,7 @@ Pour enregistrer :
 
 ## Changer de serveur raspbian :
 
-Modifiez /etc/apt/sources.list :
+Modifiez `/etc/apt/sources.list` :
 
 `sudo nano /etc/apt/sources.list`
 
@@ -97,3 +97,11 @@ Et faites un update :
 ## Enlever le thermomètre de surchauffe :
 
 ![Thermomètre](Thermomètre.png)
+
+Allez dans `/boot/config.txt` :
+
+`sudo nano /boot/config.txt`
+
+Et ajouter :
+
+`avoid_warnings=1`
