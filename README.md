@@ -112,6 +112,12 @@ Lirc permet de dupliquer les télécommandes infra rouge.
 
 Notice [ici](https://anderson69s.com/2015/08/04/raspberry-pi-dupliquer-sa-telecommande-ir/).
 
+## Installer Castnow :
+
+Castnow permet de caster sur un appareil avec un raspberry
+
+Notice [ici](https://github.com/xat/castnow).
+
 ## Changer de serveur raspbian :
 
 Modifiez `/etc/apt/sources.list` :
