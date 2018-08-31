@@ -100,6 +100,12 @@ Alexa permet d'effectuer des actions par reconnaissance vocale.
 
 Notice [ici](https://github.com/alexa-pi/AlexaPi).
 
+## Installer Google Assistant :
+
+Google Assistant permet d'effectuer des actions par reconnaissance vocale.
+
+Notice [ici](https://github.com/shivasiddharth/GassistPi).
+
 ## Installer Watchdog :
 
 Watchdog permet de rebooter le raspberry quand il est planté.
