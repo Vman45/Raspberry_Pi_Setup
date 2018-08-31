@@ -104,7 +104,7 @@ Notice [ici](https://github.com/alexa-pi/AlexaPi).
 
 Google Assistant permet d'effectuer des actions par reconnaissance vocale.
 
-Notice [ici](https://github.com/shivasiddharth/GassistPi).
+Notice [ici](https://github.com/MPi3D/Google_assistant).
 
 ## Installer Watchdog :
 
