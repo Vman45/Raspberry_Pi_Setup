@@ -58,6 +58,12 @@ Pour enregistrer :
 
 `reboot` Pour rebooter le raspberry.
 
+## Commandes sons :
+
+`arecord -D plughw:1,0 -d 5 test.wav` Pour enregistrer.
+
+`aplay test.wav` Pour jouer.
+
 ## Mettre a jour le raspberry :
 
 ### Mise à jour rapide :
