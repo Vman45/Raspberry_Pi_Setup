@@ -60,7 +60,7 @@ Pour enregistrer :
 
 ## Commandes sons :
 
-`arecord -D plughw:1,0 -d 5 test.wav` Pour enregistrer.
+`arecord -D plughw:1,0 -d` temps d'enregistrement ` ` nom du fichier `.wav` Pour enregistrer.
 
 `aplay test.wav` Pour jouer.
 
