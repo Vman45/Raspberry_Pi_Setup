@@ -64,6 +64,14 @@ Pour enregistrer :
 
 `aplay test.wav` Pour jouer.
 
+## Changer les priorités :
+
+`nice -n ` priorité (entre -20 priorité absolue et 19) ` ` chemin de fichier
+
+Exemple :
+
+`nice -n 19 chromium-browser`
+
 ## Mettre a jour le raspberry :
 
 ### Mise à jour rapide :
