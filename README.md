@@ -40,6 +40,10 @@ Exemple :
 
 `sudo pip3 install pygame`
 
+## Télécharger un fichier :
+
+`wget ` url du fichier
+
 ## Modifier un fichier :
 
 Tapez `sudo nano /` chemin `/` nom du fichier.
