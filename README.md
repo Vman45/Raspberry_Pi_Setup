@@ -44,6 +44,10 @@ Exemple :
 
 `wget ` url du fichier
 
+## Rendre un fichier executable :
+
+`sudo chmod +x /` chemin `/` nom du fichier.
+
 ## Modifier un fichier :
 
 Tapez `sudo nano /` chemin `/` nom du fichier.
