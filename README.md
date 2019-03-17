@@ -123,6 +123,12 @@ Google Assistant permet d'effectuer des actions par reconnaissance vocale.
 
 Notice [ici](https://github.com/MPi3D/Google_assistant).
 
+## Installer Opencv :
+
+Opencv permet de detecter des objets de les traquer...
+
+Notice [ici](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
+
 ## Installer Watchdog :
 
 Watchdog permet de rebooter le raspberry quand il est planté.
