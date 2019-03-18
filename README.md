@@ -32,6 +32,10 @@ Exemple :
 
 `numlockx` Verrouilleur du pavé numérique au démarrage.
 
+`tmux` Getionaire de fenètres.
+
+`pylint` Chercheur d'erreures python.
+
 ## Installer une librairie python :
 
 Tapez `sudo pip` version de python (2 ou 3) ` install ` nom de la librairie python.
@@ -123,11 +127,17 @@ Google Assistant permet d'effectuer des actions par reconnaissance vocale.
 
 Notice [ici](https://github.com/MPi3D/Google_assistant).
 
-## Installer Opencv :
+## Installer Opencv :
 
 Opencv permet de detecter des objets de les traquer...
 
 Notice [ici](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
+
+## Installer Oh My Zsh :
+
+Oh My Zsh est une extension pour le terminal destiné au dévelopeurs.
+
+Notice [ici](https://github.com/robbyrussell/oh-my-zsh)
 
 ## Installer Watchdog :
 
