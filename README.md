@@ -157,6 +157,28 @@ Castnow permet de caster sur un appareil avec un raspberry
 
 Notice [ici](https://github.com/xat/castnow).
 
+## Monter google drive sur son RPI :
+
+Installez gdrivefs :
+
+`sudo pip install gdrivefs`
+
+Demandez une autorisation :
+
+`gdfstool auth -u`
+
+`gdfstool auth -a /home/pi/gdfs.creds ` votre token
+
+`sudo mkdir /media/pi/Google_Drive`
+
+`sudo gdfs -o allow_other /home/pi/gdfs.creds /media/pi/Google_Drive`
+
+## Monter sa freebox sur son RPI :
+
+`sudo mkdir /media/pi/Freebox`
+
+`sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user=` votre utilisateur `,password=` votre mot de passe `,uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
+
 ## Changer de serveur raspbian :
 
 Modifiez `/etc/apt/sources.list` :
