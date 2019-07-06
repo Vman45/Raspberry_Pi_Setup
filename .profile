@@ -35,4 +35,4 @@ alias mount_freebox='sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/ 
 alias mount_gdrive='sudo gdfs -o allow_other /home/pi/Documents/API/gdfs.creds /media/pi/Google_Drive'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
-alias big_update='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y install ca-certificates git-core && sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update && sudo rpi-update && reboot'
+alias big_update='sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y install ca-certificates git-core && sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update && sudo rpi-update && sudo reboot'
