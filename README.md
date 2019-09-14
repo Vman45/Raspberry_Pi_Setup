@@ -1,4 +1,4 @@
-# Raspberry_Pi_Commands
+# Raspberry Pi Commands
 
 Useful commands for Raspberry Pi 3
 
