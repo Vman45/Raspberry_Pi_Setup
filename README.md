@@ -93,7 +93,7 @@ Instruction [here](https://github.com/alexa-pi/AlexaPi).
 
 ## Install Google Assistant
 
-Instruction [here](https://github.com/MPi3D/Google_assistant).
+Instruction [here](https://github.com/shivasiddharth/GassistPi).
 
 ## Install Opencv
 
