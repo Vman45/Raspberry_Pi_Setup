@@ -1,4 +1,4 @@
-# Commandes raspberry
+# Raspberry_Pi_Commands
 
 Useful commands for Raspberry Pi 3
 
@@ -62,11 +62,11 @@ Useful commands for Raspberry Pi 3
 
 ## Update the Raspberry Pi:
 
-### Quick update:
+### Quick update
 
 `sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y install ca-certificates git-core && sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update && sudo rpi-update && reboot`
 
-### Step-by-step update :
+### Step-by-step update
 
 ```
 sudo apt-get update
@@ -79,104 +79,60 @@ sudo rpi-update
 reboot
 ```
 
-## Installer Octoprint :
+## Install Octoprint
 
-Octoprint permet de faire fonctionner une imprimante 3D.
+Instruction [here](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337).
 
-Notice [ici](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337).
+## Install Curaengine
 
-## Installer Curaengine :
+Instruction [here](http://docs.octoprint.org/en/master/bundledplugins/cura.html)
 
-Curaengine permet de trancher les pièces.
+## Install Alexa
 
-Notice [ici](http://docs.octoprint.org/en/master/bundledplugins/cura.html)
+Instruction [here](https://github.com/alexa-pi/AlexaPi).
 
-## Installer Alexa :
+## Install Google Assistant
 
-Alexa permet d'effectuer des actions par reconnaissance vocale.
+Instruction [here](https://github.com/MPi3D/Google_assistant).
 
-Notice [ici](https://github.com/alexa-pi/AlexaPi).
+## Install Opencv
 
-## Installer Google Assistant :
+Instruction [here](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
 
-Google Assistant permet d'effectuer des actions par reconnaissance vocale.
+## Install Oh My Zsh
 
-Notice [ici](https://github.com/MPi3D/Google_assistant).
+Instruction [here](https://github.com/robbyrussell/oh-my-zsh)
 
-## Installer Opencv :
+## Install Watchdog
 
-Opencv permet de detecter des objets de les traquer...
+Instruction [here](https://www.framboise314.fr/watchdog-pour-mon-raspberry-pi/).
 
-Notice [ici](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
+## Install Lirc
 
-## Installer Oh My Zsh :
+Instruction [here](https://anderson69s.com/2015/08/04/raspberry-pi-dupliquer-sa-telecommande-ir/).
 
-Oh My Zsh est une extension pour le terminal destiné au dévelopeurs.
+## Install Castnow
 
-Notice [ici](https://github.com/robbyrussell/oh-my-zsh)
+Instruction [here](https://github.com/xat/castnow).
 
-## Installer Watchdog :
+## Mount google drive
 
-Watchdog permet de rebooter le raspberry quand il est planté.
-
-Notice [ici](https://www.framboise314.fr/watchdog-pour-mon-raspberry-pi/).
-
-## Installer Lirc :
-
-Lirc permet de dupliquer les télécommandes infra rouge.
-
-Notice [ici](https://anderson69s.com/2015/08/04/raspberry-pi-dupliquer-sa-telecommande-ir/).
-
-## Installer Castnow :
-
-Castnow permet de caster sur un appareil avec un raspberry
-
-Notice [ici](https://github.com/xat/castnow).
-
-## Monter google drive sur son RPI :
-
-Installez gdrivefs :
+Install gdrivefs
 
 `sudo pip install gdrivefs`
 
-Demandez une autorisation :
+Ask for an authorization
 
 `gdfstool auth -u`
 
-`gdfstool auth -a /home/pi/gdfs.creds ` votre token
+`gdfstool auth -a /home/pi/gdfs.creds ` {Your token}
 
 `sudo mkdir /media/pi/Google_Drive`
 
 `sudo gdfs -o allow_other /home/pi/gdfs.creds /media/pi/Google_Drive`
 
-## Monter sa freebox sur son RPI :
+## Mounting your freebox
 
 `sudo mkdir /media/pi/Freebox`
 
-`sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user=` votre utilisateur `,password=` votre mot de passe `,uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
-
-## Changer de serveur raspbian :
-
-Modifiez `/etc/apt/sources.list` :
-
-`sudo nano /etc/apt/sources.list`
-
-Puis modifier l'adresse par une autre que vous trouverez [ici](http://www.raspbian.org/RaspbianMirrors).
-
-Et faites un update :
-
-`sudo apt-get update`
-
-## Enlever le thermomètre de surchauffe :
-
-![Thermomètre](Thermomètre.png)
-
-Allez dans `/boot/config.txt` :
-
-`sudo nano /boot/config.txt`
-
-Et ajouter :
-
-`avoid_warnings=1`
-
-## [Raspbian tout un tas de trucs…](https://www.framboise314.fr/raspbian-tout-un-tas-de-trucs/)
+`sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user=` {Your user} `,password=` {Your password} `,uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
