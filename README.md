@@ -1,96 +1,72 @@
 # Commandes raspberry
 
-Commandes utiles pour raspberry pi 3 modèle B.
+Useful commands for Raspberry Pi 3
 
-## Installer un paquet :
+## Installing a package
 
-Tapez `sudo apt-get install ` nom du paquet.
+`sudo apt-get install ` {Package}
 
-Exemple :
+## Uninstalling a package
 
-`sudo apt-get install vlc`
+`sudo apt-get purge ` {Package}
 
-## Désinstaller un paquet :
+## Examples of packages
 
-Tapez `sudo apt-get purge ` nom du paquet.
+`vlc` Multimedia player
 
-Exemple :
+`mc` File manager
 
-`sudo apt-get purge vlc`
+`leocad` Lego 3D conseption software
 
-## Exemples de paquet :
+`cantab-screensaver` Screensaver for Raspberry Pi
 
-`vlc` Lecteur de multimedia.
+`gparted` Partition Editor
 
-`mc` Gestionnaire de fichier.
+`numlockx` Numeric keypad lock on start-up
 
-`leocad` Logitiel de conseption lego en 3D.
+`tmux` Window getionary
 
-`cantab-screensaver` Economiseur d'ecran pour raspberry.
+`pylint` Seeker of python errors
 
-`gparted` Editeur de partition.
+## Install a python library
 
-`numlockx` Verrouilleur du pavé numérique au démarrage.
+`sudo pip` {Python version} ` install ` {Python library}
 
-`tmux` Getionaire de fenètres.
+## Download a file
 
-`pylint` Chercheur d'erreures python.
+`wget ` {Url of the file}
 
-## Installer une librairie python :
+## Make a file executable
 
-Tapez `sudo pip` version de python (2 ou 3) ` install ` nom de la librairie python.
+`sudo chmod +x /` {Path} `/` {Filename}
 
-Exemple :
+## Edit a file
 
-`sudo pip3 install pygame`
+`sudo nano /` {Path} `/` {Filename}
 
-## Télécharger un fichier :
+## Shutdown option
 
-`wget ` url du fichier
+`sudo halt` To shutdown the Raspberry Pi
 
-## Rendre un fichier executable :
+`sudo reboot` To reboot the Raspberry Pi
 
-`sudo chmod +x /` chemin `/` nom du fichier.
+## Sound commands
 
-## Modifier un fichier :
+`arecord -D plughw:1,0 -d` {Recording time} ` ` {Filename} `.wav` To record
 
-Tapez `sudo nano /` chemin `/` nom du fichier.
+`aplay test.wav` To play.
 
-Exemple :
+## Changing priorities
 
-`sudo nano /home/pi/exemple.py`
+`nice -n ` {Priority} ` ` {Command}
 
-Pour enregistrer :
+## Update the Raspberry Pi:
 
-`Ctrl x`, `O` ou `Y` et `Entrée`
-
-## Shutdown option :
-
-`sudo halt` Pour éteindre le raspberry.
-
-`reboot` Pour rebooter le raspberry.
-
-## Commandes sons :
-
-`arecord -D plughw:1,0 -d` temps d'enregistrement ` ` nom du fichier `.wav` Pour enregistrer.
-
-`aplay test.wav` Pour jouer.
-
-## Changer les priorités :
-
-`nice -n ` priorité (entre -20 priorité absolue et 19) ` ` chemin de fichier
-
-Exemple :
-
-`nice -n 19 chromium-browser`
-
-## Mettre a jour le raspberry :
-
-### Mise à jour rapide :
+### Quick update:
 
 `sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y install ca-certificates git-core && sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update && sudo rpi-update && reboot`
 
-### Mise à jour par étape :
+### Step-by-step update :
 
 ```
 sudo apt-get update
