@@ -119,7 +119,7 @@ Instruction [here](https://github.com/xat/castnow).
 
 Install gdrivefs
 
-`sudo pip install gdrivefs`
+`sudo pip2 install gdrivefs`
 
 Ask for an authorization
 
