@@ -60,7 +60,7 @@ Useful commands for Raspberry Pi
 
 `nice -n ` {Priority} ` ` {Command}
 
-## Update the Raspberry Pi:
+## Update the Raspberry Pi
 
 ### Quick update
 
@@ -115,7 +115,7 @@ Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-
 
 Instruction [here](https://github.com/xat/castnow)
 
-## Mount google drive
+## Mount Google Drive
 
 Install gdrivefs
 
@@ -131,7 +131,7 @@ Ask for an authorization
 
 `sudo gdfs -o allow_other /home/pi/gdfs.creds /media/pi/Google_Drive`
 
-## Mounting your freebox
+## Mounting your Freebox
 
 `sudo mkdir /media/pi/Freebox`
 
