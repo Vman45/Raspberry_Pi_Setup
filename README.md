@@ -54,7 +54,7 @@ Useful commands for Raspberry Pi
 
 `arecord -D plughw:1,0 -d` {Recording time} ` ` {Filename} `.wav` To record
 
-`aplay test.wav` To play.
+`aplay test.wav` To play
 
 ## Changing priorities
 
@@ -81,7 +81,7 @@ reboot
 
 ## Install Octoprint
 
-Instruction [here](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337).
+Instruction [here](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337)
 
 ## Install Curaengine
 
@@ -89,11 +89,11 @@ Instruction [here](http://docs.octoprint.org/en/master/bundledplugins/cura.html)
 
 ## Install Alexa
 
-Instruction [here](https://github.com/alexa-pi/AlexaPi).
+Instruction [here](https://github.com/alexa-pi/AlexaPi)
 
 ## Install Google Assistant
 
-Instruction [here](https://github.com/shivasiddharth/GassistPi).
+Instruction [here](https://github.com/shivasiddharth/GassistPi)
 
 ## Install Opencv
 
@@ -105,15 +105,15 @@ Instruction [here](https://github.com/robbyrussell/oh-my-zsh)
 
 ## Install Watchdog
 
-Instruction [here](https://www.domoticz.com/wiki/Setting_up_the_raspberry_pi_watchdog).
+Instruction [here](https://www.domoticz.com/wiki/Setting_up_the_raspberry_pi_watchdog)
 
 ## Install Lirc
 
-Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-Infrared-Remote-Contro/).
+Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-Infrared-Remote-Contro/)
 
 ## Install Castnow
 
-Instruction [here](https://github.com/xat/castnow).
+Instruction [here](https://github.com/xat/castnow)
 
 ## Mount google drive
 
