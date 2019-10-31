@@ -1,6 +1,6 @@
 # Raspberry Pi Commands
 
-Useful commands for Raspberry Pi 3
+Useful commands for Raspberry Pi
 
 ## Installing a package
 
