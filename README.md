@@ -105,11 +105,11 @@ Instruction [here](https://github.com/robbyrussell/oh-my-zsh)
 
 ## Install Watchdog
 
-Instruction [here](https://www.framboise314.fr/watchdog-pour-mon-raspberry-pi/).
+Instruction [here](https://www.domoticz.com/wiki/Setting_up_the_raspberry_pi_watchdog).
 
 ## Install Lirc
 
-Instruction [here](https://anderson69s.com/2015/08/04/raspberry-pi-dupliquer-sa-telecommande-ir/).
+Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-Infrared-Remote-Contro/).
 
 ## Install Castnow
 
