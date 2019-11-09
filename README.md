@@ -115,7 +115,7 @@ Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-
 
 Instruction [here](https://github.com/xat/castnow)
 
-## Mount Google Drive
+## Mount your Google Drive
 
 Install gdrivefs
 
