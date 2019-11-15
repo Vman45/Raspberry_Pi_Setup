@@ -115,9 +115,47 @@ Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-
 
 Instruction [here](https://github.com/xat/castnow)
 
+## Create ssh key
+
+Create `.ssh` dir
+
+`mkdir ~/.ssh`
+
+Create ssh key
+
+`ssh-keygen`
+
+Create a `authorized_keys` file
+
+`touch ~/.ssh/authorized_keys`
+
+Make `.ssh` and `authorized_keys` executable
+
+`chmod 700 ~/.ssh`
+
+`chmod 600 ~/.ssh/authorized_keys`
+
+And write `id_rsa.pub` in it
+
+`cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+
+Copy `id_rsa` on your computer client
+
+You can remove `id_rsa` and `id_rsa.pub`
+
+`rm ~/.ssh/id_rsa ~/.ssh/id_rsa.pub`
+
+And you can connect to the computer with the `id_rsa`
+
+If you want to desactive the login by password go in `/etc/ssh/sshd_config`
+
+`sudo nano /etc/ssh/sshd_config`
+
+And add `PasswordAuthentication no`
+
 ## Mount your Google Drive
 
-Install gdrivefs
+Install `gdrivefs`
 
 `sudo pip2 install oauth2client gdrivefs`
 
@@ -125,14 +163,24 @@ Ask for an authorization
 
 `gdfstool auth -u`
 
+Save your token
+
 `gdfstool auth -a /home/pi/gdfs.creds ` {Your token}
 
+Create a `Google_Drive` dir
+
 `sudo mkdir /media/pi/Google_Drive`
+
+And mount your google drive
 
 `sudo gdfs -o allow_other /home/pi/gdfs.creds /media/pi/Google_Drive`
 
 ## Mounting your Freebox
 
+Create a `Freebox` dir
+
 `sudo mkdir /media/pi/Freebox`
+
+And mount your freebox
 
 `sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user=` {Your user} `,password=` {Your password} `,uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
