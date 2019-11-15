@@ -52,7 +52,7 @@ Useful commands for Raspberry Pi
 
 ## Sound commands
 
-`arecord -D plughw:1,0 -d {recording time} {filename}.wav` To record
+`arecord {filename}.wav` To record
 
 `aplay {filename}.wav` To play
 
