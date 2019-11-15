@@ -67,6 +67,7 @@ Useful commands for Raspberry Pi
 ```
 sudo apt-get update
 sudo apt-get -y upgrade
+sudo apt-get -y full-upgrade
 sudo apt-get -y dist-upgrade
 sudo apt-get -y install ca-certificates git-core
 sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update
