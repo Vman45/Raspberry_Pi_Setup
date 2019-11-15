@@ -4,11 +4,11 @@ Useful commands for Raspberry Pi
 
 ## Installing a package
 
-`sudo apt-get install ` {Package}
+`sudo apt-get install {package}`
 
 ## Uninstalling a package
 
-`sudo apt-get purge ` {Package}
+`sudo apt-get purge {package}`
 
 ## Examples of packages
 
@@ -30,19 +30,19 @@ Useful commands for Raspberry Pi
 
 ## Install a python library
 
-`sudo pip` {Python version} ` install ` {Python library}
+`sudo pip{python version} install {python library}`
 
 ## Download a file
 
-`wget ` {Url of the file}
+`wget {url of the file}`
 
 ## Make a file executable
 
-`sudo chmod +x /` {Path} `/` {Filename}
+`sudo chmod +x /{path}/{filename}`
 
 ## Edit a file
 
-`sudo nano /` {Path} `/` {Filename}
+`sudo nano /{path}/{filename}`
 
 ## Shutdown option
 
@@ -52,21 +52,17 @@ Useful commands for Raspberry Pi
 
 ## Sound commands
 
-`arecord -D plughw:1,0 -d` {Recording time} ` ` {Filename} `.wav` To record
+`arecord -D plughw:1,0 -d {recording time} {filename}.wav` To record
 
-`aplay test.wav` To play
+`aplay {filename}.wav` To play
 
-## Changing priorities
+## Execution priority
 
-`nice -n ` {Priority} ` ` {Command}
+`nice -n {priority (-20 19)} {command}` To add priority
+
+`renice -n {priority (-20 19)} {pid}` To change priority
 
 ## Update the Raspberry Pi
-
-### Quick update
-
-`sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt-get -y install ca-certificates git-core && sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update && sudo rpi-update && reboot`
-
-### Step-by-step update
 
 ```
 sudo apt-get update
@@ -78,42 +74,6 @@ sudo chmod +x /usr/bin/rpi-update
 sudo rpi-update
 reboot
 ```
-
-## Install Octoprint
-
-Instruction [here](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337)
-
-## Install Curaengine
-
-Instruction [here](http://docs.octoprint.org/en/master/bundledplugins/cura.html)
-
-## Install Alexa
-
-Instruction [here](https://github.com/alexa-pi/AlexaPi)
-
-## Install Google Assistant
-
-Instruction [here](https://github.com/shivasiddharth/GassistPi)
-
-## Install Opencv
-
-Instruction [here](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
-
-## Install Oh My Zsh
-
-Instruction [here](https://github.com/robbyrussell/oh-my-zsh)
-
-## Install Watchdog
-
-Instruction [here](https://www.domoticz.com/wiki/Setting_up_the_raspberry_pi_watchdog)
-
-## Install Lirc
-
-Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-Infrared-Remote-Contro/)
-
-## Install Castnow
-
-Instruction [here](https://github.com/xat/castnow)
 
 ## Create ssh key
 
@@ -165,7 +125,7 @@ Ask for an authorization
 
 Save your token
 
-`gdfstool auth -a /home/pi/gdfs.creds ` {Your token}
+`gdfstool auth -a ~/gdfs.creds ` {Your token}
 
 Create a `Google_Drive` dir
 
@@ -173,7 +133,7 @@ Create a `Google_Drive` dir
 
 And mount your google drive
 
-`sudo gdfs -o allow_other /home/pi/gdfs.creds /media/pi/Google_Drive`
+`sudo gdfs -o allow_other ~/gdfs.creds /media/pi/Google_Drive`
 
 ## Mounting your Freebox
 
@@ -184,3 +144,41 @@ Create a `Freebox` dir
 And mount your freebox
 
 `sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user=` {Your user} `,password=` {Your password} `,uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
+
+## Installation guides
+
+### Install Octoprint
+
+Instruction [here](https://discourse.octoprint.org/t/setting-up-octoprint-on-a-raspberry-pi-running-raspbian/2337)
+
+### Install Curaengine
+
+Instruction [here](http://docs.octoprint.org/en/master/bundledplugins/cura.html)
+
+### Install Alexa
+
+Instruction [here](https://github.com/alexa-pi/AlexaPi)
+
+### Install Google Assistant
+
+Instruction [here](https://github.com/shivasiddharth/GassistPi)
+
+### Install Opencv
+
+Instruction [here](https://www.pyimagesearch.com/2018/09/26/install-opencv-4-on-your-raspberry-pi/)
+
+### Install Oh My Zsh
+
+Instruction [here](https://github.com/robbyrussell/oh-my-zsh)
+
+### Install Watchdog
+
+Instruction [here](https://www.domoticz.com/wiki/Setting_up_the_raspberry_pi_watchdog)
+
+### Install Lirc
+
+Instruction [here](https://www.instructables.com/id/Install-and-Configure-Linux-Infrared-Remote-Contro/)
+
+### Install Castnow
+
+Instruction [here](https://github.com/xat/castnow)
