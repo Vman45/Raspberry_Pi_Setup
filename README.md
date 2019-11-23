@@ -1,6 +1,8 @@
 # Raspberry Pi Commands
 
-Useful commands for Raspberry Pi
+Useful commands for [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+
+[![Raspberry Pi](/Raspberry_Pi.jpg)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
 ## Installing a package
 
