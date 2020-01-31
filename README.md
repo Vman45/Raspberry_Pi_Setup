@@ -126,7 +126,7 @@ Ask for an authorization
 
 Save your token
 
-`gdfstool auth -a ~/gdfs.creds ` {Your token}
+`gdfstool auth -a ~/gdfs.creds {Your token}`
 
 Create a `Google_Drive` dir
 
@@ -144,7 +144,7 @@ Create a `Freebox` dir
 
 And mount your freebox
 
-`sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user=` {Your user} `,password=` {Your password} `,uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
+`sudo mount -t cifs //mafreebox.freebox.fr/Server\ Freebox/  /media/pi/Freebox -o user={Your user},password={Your password},uid=1000,gid=1000,rw,sec=ntlm,vers=1.0`
 
 ## Installation guides
 
