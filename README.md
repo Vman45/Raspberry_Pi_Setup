@@ -1,6 +1,6 @@
 # Raspberry Pi Installations
 
-Installations useful for [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+Useful setup for [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
 [![Raspberry Pi](/Raspberry_Pi.jpg)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
