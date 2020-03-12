@@ -2,7 +2,7 @@
 
 Useful setup for [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
-[![Raspberry Pi](/Raspberry_Pi.jpg)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+[![Raspberry Pi](/Raspberry_Pi.png)](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
 ## Installing a package
 
