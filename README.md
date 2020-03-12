@@ -8,10 +8,6 @@ Useful commands for [Raspberry Pi](https://www.raspberrypi.org/products/raspberr
 
 `sudo apt-get install {package}`
 
-## Uninstalling a package
-
-`sudo apt-get purge {package}`
-
 ## Examples of packages
 
 `vlc` Multimedia player
@@ -20,11 +16,7 @@ Useful commands for [Raspberry Pi](https://www.raspberrypi.org/products/raspberr
 
 `leocad` Lego 3D conseption software
 
-`cantab-screensaver` Screensaver for Raspberry Pi
-
 `gparted` Partition Editor
-
-`numlockx` Numeric keypad lock on start-up
 
 `tmux` Window getionary
 
@@ -33,36 +25,6 @@ Useful commands for [Raspberry Pi](https://www.raspberrypi.org/products/raspberr
 ## Install a python library
 
 `sudo pip{python version} install {python library}`
-
-## Download a file
-
-`wget {url of the file}`
-
-## Make a file executable
-
-`sudo chmod +x /{path}/{filename}`
-
-## Edit a file
-
-`sudo nano /{path}/{filename}`
-
-## Shutdown option
-
-`sudo halt` To shutdown the Raspberry Pi
-
-`sudo reboot` To reboot the Raspberry Pi
-
-## Sound commands
-
-`arecord {filename}.wav` To record
-
-`aplay {filename}.wav` To play
-
-## Execution priority
-
-`nice -n {priority (-20 19)} {command}` To add priority
-
-`renice -n {priority (-20 19)} {pid}` To change priority
 
 ## Update the Raspberry Pi
 
