@@ -1,4 +1,4 @@
-# Raspberry Pi Installations
+# Raspberry Pi Setup
 
 Useful setup for [Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
 
